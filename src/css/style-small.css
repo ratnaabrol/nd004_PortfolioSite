@@ -10,13 +10,28 @@ header #name-title-wrapper {
   float: none;
 }
 
-header #name-title-wrapper h1, header #name-title-wrapper h2 {
+header #name-title-wrapper h1 {
   text-align: left;
+  font-size: 1.5em;
 }
 
+header #name-title-wrapper h2 {
+  text-align: left;
+  font-size: 1em;
+}
 /**
  * Thematic separation
  */
 hr {
   border-color: green;
+}
+
+/**
+ * Masthead
+ */
+#masthead {
+  min-height: 100px;
+}
+#masthead span {
+  font-size: 2em;
 }
