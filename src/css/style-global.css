@@ -1,0 +1,47 @@
+/**
+ * Global styles
+ */
+
+ /**
+  * Global font
+  */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * Page header htyles
+ **/
+header {
+  box-sizing: border-box;
+}
+
+header #logo {
+  max-width: 48px;
+  max-width: 48px;
+  border-radius: 10%; /** soften the image border */
+}
+
+header #name-title-wrapper {
+  float: right;
+}
+
+header #name-title-wrapper h1, header #name-title-wrapper h2 {
+  text-align: right;
+  margin: 5px;
+}
+
+
+/**
+ * Thematic separation
+ */
+hr {
+  border: solid;
+  border-width: 2px;
+}

@@ -1,0 +1,22 @@
+/**
+ * Style sheet for small viewports
+ */
+
+/**
+ * Page header htyles
+ **/
+
+header #name-title-wrapper {
+  float: none;
+}
+
+header #name-title-wrapper h1, header #name-title-wrapper h2 {
+  text-align: left;
+}
+
+/**
+ * Thematic separation
+ */
+hr {
+  border-color: green;
+}

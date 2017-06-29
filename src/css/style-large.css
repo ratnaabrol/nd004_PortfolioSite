@@ -1,0 +1,7 @@
+/**
+ * Style sheet for large viewports
+ */
+
+body {
+  max-width: 1000px;
+}
