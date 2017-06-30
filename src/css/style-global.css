@@ -19,6 +19,7 @@ body {
 }
 
 a {
+  /* ensure hit area is large enough for mobile */
   min-width: 48px;
   min-height: 48px;
 }
