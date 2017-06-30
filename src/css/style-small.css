@@ -29,10 +29,10 @@ hr {
 /**
  * Section masthead
  */
-.masthead {
+section .masthead {
   min-height: 75px;
 }
 
-.masthead span {
+section .masthead span {
   font-size: 1em;
 }
