@@ -76,8 +76,7 @@ section .masthead::after {
      position: absolute;
      top: 0;
      left: 0;
-     /* TODO: replace img with licenced one from Shutterstock */
-     background-image: url("../img/development-skills.jpg");
+     background-image: url("../img/programming_skills_banner.png"); /* image licenced from Shutterstock */
      background-size: cover;
      background-position: bottom;
      width: 100%;
