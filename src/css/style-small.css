@@ -23,7 +23,7 @@ header #name-title-wrapper h2 {
  * Thematic separation
  */
 hr {
-  border-color: green;
+  border-color: lightgrey;
 }
 
 /**
@@ -35,4 +35,12 @@ section .masthead {
 
 section .masthead span {
   font-size: 1em;
+}
+
+/**
+ * Portfolio section
+ */
+#portfolio img {
+  max-width: 150px;
+  max-height: 94px;
 }

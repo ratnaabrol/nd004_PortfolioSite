@@ -23,9 +23,6 @@ body {
 /**
  * Page header htyles
  **/
-header {
-}
-
 header #logo {
   max-width: 48px;
   max-width: 48px;
@@ -46,7 +43,8 @@ header #name-title-wrapper h1, header #name-title-wrapper h2 {
  */
 hr {
   border: solid;
-  border-width: 2px;
+  border-width: 1px;
+  width: 100%;
 }
 
 /**
@@ -96,7 +94,7 @@ section .masthead span {
 /**
  * Portfolio section
  */
-section#portfolio {
+#portfolio {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

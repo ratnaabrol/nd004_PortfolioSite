@@ -5,3 +5,10 @@
 body {
   max-width: 1000px;
 }
+
+/**
+ * Thematic separation
+ */
+hr {
+  border-color: black;
+}

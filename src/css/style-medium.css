@@ -2,10 +2,28 @@
  * Style sheet for medium viewports
  */
 
-/**
- * Page header htyles
- **/
+ /**
+  * Thematic separation
+  */
+ hr {
+   border-color: grey;
+ }
 
-hr {
-  border-color: red;
+/**
+ * Section masthead
+ */
+section .masthead {
+  min-height: 100px;
+}
+
+section .masthead span {
+  font-size: 2em;
+}
+
+/**
+ * Portfolio section
+ */
+#portfolio img {
+  max-width: 225px;
+  max-height: 141px;
 }
