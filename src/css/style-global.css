@@ -42,14 +42,14 @@ header #name-title-wrapper h1, header #name-title-wrapper h2 {
 }
 
 /**
- * Masthead
+ * Section mastheads
  */
-#masthead {
+.masthead {
   position: relative;
   min-height: 150px;
 }
 
-#masthead::after {
+.masthead::after {
     content : "";
     display: block;
     position: absolute;
@@ -64,8 +64,9 @@ header #name-title-wrapper h1, header #name-title-wrapper h2 {
     z-index: -1;
 }
 
-#masthead span {
-  font-size: 4em;
+.masthead span {
+  font-size: 3em;
+  font-weight: normal;
   margin: 0px;
   position: absolute;
   bottom: 5px;

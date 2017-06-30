@@ -27,11 +27,12 @@ hr {
 }
 
 /**
- * Masthead
+ * Section masthead
  */
-#masthead {
-  min-height: 100px;
+.masthead {
+  min-height: 75px;
 }
-#masthead span {
-  font-size: 2em;
+
+.masthead span {
+  font-size: 1em;
 }
