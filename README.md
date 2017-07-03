@@ -26,3 +26,11 @@ Desktop browsers:
 * Firefox 54 (Windows 10)
 * Edge 40.15063.0.0
 * Internet Explorer 11
+
+## Revision History
+* 1.0.1
+    * fixed issue where horizontal scrollbar would appear when reducing browser size
+    * fixed css styleguide non-conformity
+    * fixed css formatting issues
+* 1.0.0
+    * first release

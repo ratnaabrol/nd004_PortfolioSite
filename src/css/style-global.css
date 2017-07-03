@@ -2,6 +2,9 @@
  * Global styles
  */
 
+* {
+  box-sizing: border-box;
+}
 
 html {
    min-height: 100%
@@ -12,7 +15,6 @@ body {
 }
 
 body {
-  box-sizing: border-box;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -37,7 +39,8 @@ header #name-title-wrapper {
   float: right;
 }
 
-header #name-title-wrapper h1, header #name-title-wrapper h2 {
+header #name-title-wrapper h1,
+header #name-title-wrapper h2 {
   text-align: right;
   margin: 5px;
 }
@@ -76,9 +79,7 @@ section .masthead::after {
      position: absolute;
      top: 0;
      left: 0;
-     background-image: url("../img/programming_skills_banner.png"); /* image licenced from Shutterstock */
-     background-size: cover;
-     background-position: bottom;
+     background: url(../img/programming_skills_banner.png) bottom/cover; /* image licenced from Shutterstock */
      width: 100%;
      height: 100%;
      opacity : 0.3;
